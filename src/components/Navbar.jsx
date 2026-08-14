@@ -102,12 +102,7 @@ export default function Navbar() {
             <span className="relative">Safety Protocols</span>
           </RouteLink>
 
-          <RouteLink
-            to="/contact"
-            className="text-sm font-medium text-[#694F8E]/90 hover:text-[#E3A5C7] transition-colors"
-          >
-            Contact
-          </RouteLink>
+         
         </nav>
 
         {/* DESKTOP CTA */}
@@ -185,13 +180,7 @@ export default function Navbar() {
                 <span className="relative">Safety Protocols</span>
               </RouteLink>
 
-              <RouteLink
-                to="/contact"
-                onClick={closeMobileMenu}
-                className="block w-full py-3 text-lg font-semibold text-[#694F8E] hover:text-[#E3A5C7] transition-colors"
-              >
-                Contact
-              </RouteLink>
+              
 
               {/* MOBILE CTA */}
               <RouteLink

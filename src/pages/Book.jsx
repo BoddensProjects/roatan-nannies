@@ -36,9 +36,14 @@ export default function Book() {
             </h3>
             <p className="text-[#694F8E]/80">If you need a nanny within the next 6 hours, please reach out to us directly to check availability.</p>
           </div>
-          <RouteLink to="/contact" className="inline-flex items-center gap-2 px-6 py-3 bg-[#FFDFD6] text-[#694F8E] font-bold rounded-xl hover:bg-[#E3A5C7] hover:text-white transition-colors flex-shrink-0">
+          <a 
+            href="https://wa.me/50433723832" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="inline-flex items-center gap-2 px-6 py-3 bg-[#FFDFD6] text-[#694F8E] font-bold rounded-xl hover:bg-[#E3A5C7] hover:text-white transition-colors flex-shrink-0"
+          >
             <span className="material-symbols-rounded">chat</span> WhatsApp Us
-          </RouteLink>
+          </a>
         </div>
 
       </div>

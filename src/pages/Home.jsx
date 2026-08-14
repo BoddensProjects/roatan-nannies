@@ -202,24 +202,8 @@ export default function Home() {
             <span className="block text-sm font-bold tracking-widest text-[#E3A5C7] uppercase mb-4">Real Experiences</span>
             <h2 className="text-3xl md:text-4xl font-bold text-[#694F8E]">Loved by Families & Travelers</h2>
           </div>
+          <div id="featurable-bdca6fe8-c44f-494f-afa5-5b0ed7191786" data-featurable-async ></div><script src="https://cdn.featurable.com/widget/v2/embed.js" defer charset="UTF-8"></script>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-            <blockquote className="bg-white p-10 rounded-3xl border border-[#FFDFD6] shadow-sm">
-              <span className="material-symbols-rounded text-[#E3A5C7] text-5xl mb-4 opacity-50">format_quote</span>
-              <p className="text-xl text-[#694F8E] italic font-medium leading-relaxed mb-8">
-                "Having reliable, English-speaking care at our resort meant my husband and I could enjoy a sunset dive worry-free. Our kids adored their nanny!"
-              </p>
-              <footer className="text-sm font-bold text-[#B692C2] uppercase tracking-wide">— Sarah M., Visiting Family</footer>
-            </blockquote>
-            
-            <blockquote className="bg-white p-10 rounded-3xl border border-[#FFDFD6] shadow-sm">
-              <span className="material-symbols-rounded text-[#E3A5C7] text-5xl mb-4 opacity-50">format_quote</span>
-              <p className="text-xl text-[#694F8E] italic font-medium leading-relaxed mb-8">
-                "The booking was smooth and the caregiver was punctual, professional, and amazing with our 2-year-old."
-              </p>
-              <footer className="text-sm font-bold text-[#B692C2] uppercase tracking-wide">— David L., Island Resident</footer>
-            </blockquote>
-          </div>
         </div>
       </section>
 

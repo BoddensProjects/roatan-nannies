@@ -76,8 +76,15 @@ export default function Pricing() {
               </article>
             ))}
           </div>
+
+          {/* ADDED: Extra Child Pricing Notice */}
+          <div className="mt-10 text-center">
+            <p className="inline-block bg-white px-6 py-3 rounded-full border border-[#FFDFD6] shadow-sm text-[#694F8E] font-medium">
+              Rates include up to 3 children. <span className="text-[#E3A5C7] font-bold ml-1">+$8/hour for each additional child.</span>
+            </p>
+          </div>
           
-          <div className="mt-16 max-w-2xl mx-auto bg-[#FFDFD6]/30 rounded-2xl p-6 text-center border border-[#FFDFD6]/50 flex items-start gap-4">
+          <div className="mt-12 max-w-2xl mx-auto bg-[#FFDFD6]/30 rounded-2xl p-6 text-center border border-[#FFDFD6]/50 flex items-start gap-4">
             <span className="material-symbols-rounded text-[#E3A5C7] text-2xl flex-shrink-0">info</span>
             <p className="text-[#694F8E]/80 text-sm md:text-base leading-relaxed text-left">
               <strong className="text-[#694F8E]">Note:</strong> Short-notice bookings made within the six-hour advance window may include an additional fee and are subject to availability.
@@ -110,8 +117,9 @@ export default function Pricing() {
                 <span className="material-symbols-rounded text-[#E3A5C7] text-3xl">diversity_1</span>
               </div>
               <h3 className="text-xl font-bold text-[#694F8E] mb-4">Up to 3 Children</h3>
+              {/* UPDATED: Added context for the $8 extra charge here as well */}
               <p className="text-[#694F8E]/80 leading-relaxed">
-                For safety and quality of care, one nanny can care for up to three children per booking at the standard hourly rate.
+                One nanny can care for up to three children per booking at the standard hourly rate. An additional fee of <strong className="text-[#694F8E]">$8/hour</strong> applies for each extra child.
               </p>
             </div>
             
