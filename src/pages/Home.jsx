@@ -216,7 +216,7 @@ export default function Home() {
             <RouteLink to="/book" className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-[#694F8E] bg-[#FFDFD6] rounded-full hover:bg-white transition-all duration-300 shadow-xl shadow-[#694F8E]/30">
               {phrases[6]}
             </RouteLink>
-            <RouteLink to="/contact" className="inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-bold text-white bg-transparent border-2 border-white/30 rounded-full hover:bg-white/10 transition-all duration-300">
+            <RouteLink to="/book" className="inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-bold text-white bg-transparent border-2 border-white/30 rounded-full hover:bg-white/10 transition-all duration-300">
               <span className="material-symbols-rounded text-xl">chat</span> Contact Us
             </RouteLink>
           </div>

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.roatannannies.com/sitemap.xml
+Host: https://www.roatannannies.com
